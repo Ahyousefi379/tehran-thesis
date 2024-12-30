@@ -39,7 +39,9 @@
 {%
 	% بسته‌ٔ ایجاد لینک‌های رنگی با امکان جهش
 	\usepackage[unicode=true,pagebackref=true,
-colorlinks,linkcolor=blue,citecolor=blue,final]{hyperref}
+colorlinks=true,linkcolor=blue,citecolor=blue,final]{hyperref}
+
+
 	%\usepackage{todonotes}
 	\usepackage[firstpage]{draftwatermark}
 	\SetWatermarkText{\ \ \ \rl{پیش‌نویس}}
@@ -50,6 +52,9 @@ colorlinks,linkcolor=blue,citecolor=blue,final]{hyperref}
 	%\usepackage[disable]{todonotes} % final without TODOs
 }
 
+\hypersetup{%
+	pdfborder = {0 0 0}
+}
 \usepackage[obeyDraft]{todonotes}
 \setlength{\marginparwidth}{2cm}
 
